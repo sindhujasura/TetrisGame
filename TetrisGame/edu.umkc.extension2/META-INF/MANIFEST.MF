@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extension2
+Bundle-SymbolicName: edu.umkc.extension2;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umkc.extension2.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ edu.umkc.tetris;bundle-version="1.0.0",
+ edu.umkc.tetrisplugin1;bundle-version="1.0.0",
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
